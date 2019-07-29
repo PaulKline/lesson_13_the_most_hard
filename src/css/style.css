@@ -1,3 +1,7 @@
+body {
+  font-family: serif;
+}
+
 .container {
   background: url("../img/bg.png") no-repeat;
   background-size: cover;
@@ -22,13 +26,85 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   margin-left: 390px;
   margin-bottom: 80px;
 }
 
 .button {
   border: none;
+}
+
+.discription__card .discription__title {
+  color: #7c6db0;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  padding-top: 140px;
+  padding-left: 128px;
+}
+
+.discription__card .discription__button {
+  background-color: #7c6db0;
+  color: white;
+  max-width: 409px;
+  max-height: 70px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  padding: 7px 9px 15px 11px;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+
+.discription__card .discription__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 94px;
+  margin-left: 137px;
+}
+
+.discription__card .discription__desc span {
+  display: block;
+  margin-left: 39px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.discription__card .discription__buttons {
+  margin-top: 115px;
+  margin-left: 130px;
+  margin-bottom: 80px;
+}
+
+.discription__card .discription__buttons .add {
+  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  background-color: #1eb8b0;
+  background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%);
+  padding: 30px 48px 24px 60px;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 25px;
+  color: white;
+  margin-right: 25px;
+}
+
+.discription__card .discription__buttons .meeting {
+  color: #01b3e0;
+  font-family: "Roboto Slab";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 25px 70px 25px 70px;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+          box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
+  border: 2px solid #01c4e0;
+  background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%);
+  background: transparent;
 }
 /*# sourceMappingURL=style.css.map */
