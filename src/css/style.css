@@ -1,5 +1,5 @@
 body {
-  font-family: serif;
+  font-family: "Roboto Slab";
 }
 
 .container {
@@ -34,26 +34,27 @@ body {
   border: none;
 }
 
+.discription__card {
+  margin-left: 521px;
+}
+
 .discription__card .discription__title {
   color: #7c6db0;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 70px;
-  padding-top: 140px;
-  padding-left: 128px;
+  padding-top: 143px;
+  padding-bottom: 30px;
 }
 
 .discription__card .discription__button {
   background-color: #7c6db0;
   color: white;
-  max-width: 409px;
-  max-height: 70px;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 50px;
-  padding: 7px 9px 15px 11px;
-  margin-top: 30px;
-  margin-left: 130px;
+  padding: 5px 20px 15px 22px;
+  font-family: "Roboto Slab";
 }
 
 .discription__card .discription__desc {
@@ -64,20 +65,23 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 94px;
-  margin-left: 137px;
+}
+
+.discription__card .discription__desc img {
+  margin-left: 10px;
 }
 
 .discription__card .discription__desc span {
   display: block;
-  margin-left: 39px;
-  font-size: 24px;
+  margin-left: 34px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 29px;
+  line-height: 30px;
 }
 
 .discription__card .discription__buttons {
   margin-top: 115px;
-  margin-left: 130px;
+  padding-right: 20px;
   margin-bottom: 80px;
 }
 
@@ -97,10 +101,10 @@ body {
 .discription__card .discription__buttons .meeting {
   color: #01b3e0;
   font-family: "Roboto Slab";
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 26px;
-  padding: 25px 70px 25px 70px;
+  padding: 25px 75px 25px 70px;
   -webkit-box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
           box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44);
   border: 2px solid #01c4e0;
